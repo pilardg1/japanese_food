@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&display=swap');
+/* font-family: 'Noto Sans JP', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+
+/* CONFIGURACIÓN GENERAL */
+
+*{
+    margin: 0;
+    padding: 0.4px;
+    box-sizing: border-box;
+}
+
+.cursor{
+    cursor:url(./imagenes/cursor.gif);
+}
+
+
+.body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(28,28,29,1) 53%, rgba(58,76,79,1) 100%);
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 200px;
+}
+
+.logo{
+    height: 150px;
+    transition: all 0.3s;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.curved {
+    position: relative;
+    background: #f95951af;
+    height: 1vh;
+    border-bottom-left-radius: 50% 30%;
+    border-bottom-right-radius: 50% 30%;
+}
+
+.instagram{
+    height: 30px;
+}
+
+.facebook{
+    height: 30px;
+}
+
+/* CONFIGURACIÓN INDEX */
+
+.central{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.central1{
+    width: 850px;
+    height: 550px;
+    background-color: #ffffffd0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotohome{
+    border-radius: 9px; 
+}
+
+
+/* CONFIGURACIÓN CARTA */
+
+.centralcarta{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textocarta{
+    width: 650px;
+    height: 100px;
+    color: #e27171b4;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.menu{
+    width: 750px;
+    height: 350px;
+    background-color: #ffffffd0;
+    border-radius: 8px;
+}
+
+.imagenmenu{
+    width: 750px;
+    height: 350px;
+    transition: transform .90s;
+    border-radius: 20px;
+}
+
+.imagenmenu:hover{
+    transform: scale(1.8);
+}
+
+
+/* CONFIGURACIÓN UBICACIÓN */
+
+.centralubicacion{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.textoubicacion{
+    width: 400px;
+    height: 100px;
+    color: #e27171b4;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.mapaubicacion{
+    width: 750px;
+    height: 350px;
+    background-color: #ffffffd0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONFIGURACIÓN RESERVAS */
+
+.cartas{
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    width: 450px;
+    height: 350px;
+    background-color: #ffffffd0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto{
+    padding: 10px;
+    color: #302727b4;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.imagenwp{
+    height: 70px;
+}
+
+.video{
+    border-radius: 8px;
+}
+
